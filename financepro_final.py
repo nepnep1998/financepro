@@ -1023,9 +1023,14 @@ class FinancePro:
             st.info("🔄 Tente recarregar a página")
 
            
-    # === RODAPÉ MINIMALISTA ===
+     # === RODAPÉ MINIMALISTA CORRIGIDO ===
     st.markdown("---")
-    st.caption("💰 FinancePro • Desenvolvido por Fernando Farias Pires • piresfernando493@gmail.com • 2024")
+    st.markdown("""
+    <div style="text-align: center; color: #666; font-size: 0.9rem;">
+        <p><strong>FinancePro</strong> • Desenvolvido por Fernando Farias Pires</p>
+        <p>📧 piresfernando493@gmail.com • Versão 1.0 - 2024</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 # ========== EXECUÇÃO ==========
 if __name__ == "__main__":
