@@ -1022,6 +1022,17 @@ class FinancePro:
             st.error(f"❌ Ocorreu um erro inesperado: {str(e)}")
             st.info("🔄 Tente recarregar a página")
 
+        # === ADICIONE ESTAS LINHAS ===
+    st.markdown("---")
+    st.markdown("""
+    <div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 15px;">
+        <h3>💰 FinancePro</h3>
+        <p><strong>Desenvolvido por Fernando Farias Pires</strong></p>
+        <p>📧 piresfernando493@gmail.com</p>
+        <p>Versão 1.0 - 2024</p>
+    </div>
+    """, unsafe_allow_html=True)
+
 # ========== EXECUÇÃO ==========
 if __name__ == "__main__":
     app = FinancePro()
