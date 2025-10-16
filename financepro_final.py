@@ -1028,7 +1028,7 @@ class FinancePro:
     st.markdown("""
     <div style="text-align: center; color: #666; font-size: 0.9rem;">
         <p><strong>FinancePro</strong> • Desenvolvido por Fernando Farias Pires</p>
-        <p>📧 piresfernando493@gmail.com • Versão 1.0 - 2024</p>
+        <p>📧 piresfernando493@gmail.com • Versão 1.0 - 2025</p>
     </div>
     """, unsafe_allow_html=True)
 
